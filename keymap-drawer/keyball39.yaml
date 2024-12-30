@@ -19,7 +19,7 @@ layers:
   - J
   - K
   - L
-  - .
+  - $$mdi:pan-up$$
   - Z
   - X
   - C
@@ -29,11 +29,11 @@ layers:
   - M
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
-  - {t: ',', s: <}
-  - {t: ., h: SNIPE}
+  - .
+  - {t: '$$mdi:keyboard-tab$$', h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: Alt+`, h: SCROLL, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -72,7 +72,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
   - '!'
-  - '@'
+  - '?'
   - '#'
   - $
   - '%'
@@ -107,12 +107,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '@'
+  - '#'
   - \
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
