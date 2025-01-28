@@ -24,7 +24,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -80,7 +81,7 @@
             bindings = <
 &kp Q      &kp W           &kp E       &kp R            &kp T                                      &kp Y            &kp U  &kp I      &kp O      &kp P
 &kp A      &kp S           &kp D       &kp F            &kp G                                      &kp H            &kp J  &kp K      &kp L      &to 4
-&kp Z      &kp X           &kp C       &kp V            &kp B                                      &kp N            &kp M  &mkp LCLK  &mkp RCLK  &none
+&kp Z      &kp X           &kp C       &kp V            &kp B                                      &kp N            &kp M  &mkp LCLK  &mkp RCLK  &to 7
 &kp LCTRL  &kp LEFT_SHIFT  &kp PERIOD  &mt LC(V) LC(C)  &lt 1 SPACE  &lt 4 LA(GRAVE)  &lt 4 ENTER  &lt 2 BACKSPACE                               &none
             >;
         };
@@ -149,7 +150,7 @@
             bindings = <
 &trans  &kp LC(K)  &kp LC(B)  &kp S             &kp V                                 &trans  &trans  &trans  &trans  &trans
 &trans  &kp L      &kp C      &kp E             &kp B                                 &to 0   &trans  &trans  &trans  &none
-&trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &trans  &trans  &trans  &tog 0
+&trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &trans  &trans  &trans  &to 0
 &trans  &trans     &trans     &kp LS(LC(Z))     &kp LC(Z)          &kp LC(M)  &trans  &trans                          &Hiragana
             >;
         };
