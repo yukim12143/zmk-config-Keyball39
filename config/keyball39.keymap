@@ -24,6 +24,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -118,7 +120,7 @@
             label = "MOUSE";
             bindings = <
 &bt BT_PRV  &bt BT_NXT  &none   &none   &bt BT_CLR_ALL                  &none  &kp LC(C)  &kp LC(V)       &mkp MB4   &mkp MB5
-&none       &none       &none   &none   &none                           &to 7  &tog 0     &msc SCRL_UP    &mkp LCLK  &mkp RCLK
+&none       &none       &none   &none   &none                           &to 7  &to 4      &msc SCRL_UP    &mkp LCLK  &mkp RCLK
 &kp LG(X)   &none       &none   &none   &none                           &none  &none      &msc SCRL_DOWN  &none      &none
 &none       &trans      &trans  &trans  &trans          &trans  &trans  &none                                        &none
             >;
