@@ -20,23 +20,6 @@
         >;
     };
 
-    behaviors {
-        // 🔹 タップダンスの定義（通常タップでP、ダブルタップでSYMレイヤーをトグル）
-        td_p_toggle_layer: tap_dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_P_TOGGLE_LAYER";
-            #binding-cells = <0>;
-            bindings = <&kp P>, <&tog SYM>;
-        };
-    };
-
-settings {
-        // 🔹 タップダンスのタップ間隔を設定
-        zmk,tap-dance {
-            tapping-term-ms = <200>; // ダブルタップ受付時間（ミリ秒）
-        };
-    };
-
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
