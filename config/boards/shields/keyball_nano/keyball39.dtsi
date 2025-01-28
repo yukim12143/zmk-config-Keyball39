@@ -19,7 +19,24 @@
             RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,11) RC(3,10)                         RC(3,6)
         >;
     };
-	
+
+    behaviors {
+        // 🔹 タップダンスの定義（通常タップでP、ダブルタップでSYMレイヤーをトグル）
+        td_p_toggle_layer: tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_P_TOGGLE_LAYER";
+            #binding-cells = <0>;
+            bindings = <&kp P>, <&tog SYM>;
+        };
+    };
+
+settings {
+        // 🔹 タップダンスのタップ間隔を設定
+        zmk,tap-dance {
+            tapping-term-ms = <200>; // ダブルタップ受付時間（ミリ秒）
+        };
+    };
+
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
