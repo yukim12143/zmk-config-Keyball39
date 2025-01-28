@@ -19,7 +19,7 @@ layers:
   - J
   - K
   - L
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: MOUSE, h: toggle}
   - Z
   - X
   - C
@@ -175,8 +175,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ipad, h: toggle}
-  - {t: MOUSE, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: QWRT, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
