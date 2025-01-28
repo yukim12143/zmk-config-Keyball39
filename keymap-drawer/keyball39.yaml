@@ -164,7 +164,7 @@ layers:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+C
   - Ctl+V
