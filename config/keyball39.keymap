@@ -79,10 +79,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q      &kp W           &kp E       &kp R      &kp T                                      &kp Y            &kp U  &kp I      &kp O      &kp P
-&kp A      &kp S           &kp D       &kp F      &kp G                                      &kp H            &kp J  &kp K      &kp L      &none
-&kp Z      &kp X           &kp C       &kp V      &kp B                                      &kp N            &kp M  &mkp LCLK  &mkp RCLK  &none
-&kp LCTRL  &kp LEFT_SHIFT  &kp PERIOD  &kp RCTRL  &lt 1 SPACE  &lt 5 LA(GRAVE)  &lt 4 ENTER  &lt 2 BACKSPACE                               &none
+&kp Q      &kp W           &kp E       &kp R            &kp T                                      &kp Y            &kp U  &kp I      &kp O      &kp P
+&kp A      &kp S           &kp D       &kp F            &kp G                                      &kp H            &kp J  &kp K      &kp L      &none
+&kp Z      &kp X           &kp C       &kp V            &kp B                                      &kp N            &kp M  &mkp LCLK  &mkp RCLK  &none
+&kp LCTRL  &kp LEFT_SHIFT  &kp PERIOD  &mt LC(V) LC(C)  &lt 1 SPACE  &lt 4 LA(GRAVE)  &lt 4 ENTER  &lt 2 BACKSPACE                               &none
             >;
         };
 
@@ -119,10 +119,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none  &none   &none   &none   &none                   &none  &kp LC(C)  &kp LC(V)       &mkp MB4   &mkp MB5
-&none  &none   &none   &none   &none                   &to 7  &tog 0     &msc SCRL_UP    &mkp LCLK  &mkp RCLK
-&none  &none   &none   &none   &none                   &none  &none      &msc SCRL_DOWN  &none      &none
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &none                                        &none
+&none      &none   &none   &none   &none                   &none  &kp LC(C)  &kp LC(V)       &mkp MB4   &mkp MB5
+&none      &none   &none   &none   &none                   &to 7  &tog 0     &msc SCRL_UP    &mkp LCLK  &mkp RCLK
+&kp LG(X)  &none   &none   &none   &none                   &none  &none      &msc SCRL_DOWN  &none      &none
+&none      &trans  &trans  &trans  &trans  &trans  &trans  &none                                        &none
             >;
         };
 
@@ -151,7 +151,7 @@
 &trans  &kp LC(K)  &kp LC(B)  &kp S             &kp V                                 &trans  &trans  &trans  &trans  &trans
 &trans  &kp L      &kp C      &kp E             &kp B                                 &to 0   &trans  &trans  &trans  &none
 &trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &trans  &trans  &trans  &tog 0
-&trans  &trans     &trans     &kp LS(LC(Z))     &kp LC(Z)          &kp LC(M)  &trans  &trans                          &trans
+&trans  &trans     &trans     &kp LS(LC(Z))     &kp LC(Z)          &kp LC(M)  &trans  &trans                          &Hiragana
             >;
         };
 
