@@ -148,10 +148,10 @@
 
         ipad {
             bindings = <
-&trans  &trans  &trans  &trans            &trans                                &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp E             &kp B                                 &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LS(LC(Z))     &kp LC(Z)          &kp LC(Z)  &trans  &trans                          &trans
+&trans  &kp LC(K)  &kp LC(B)  &kp S             &kp V                                 &trans  &trans  &trans  &trans  &trans
+&trans  &kp L      &kp C      &kp E             &kp B                                 &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &kp LS(LC(Z))     &kp LC(Z)          &kp LC(M)  &trans  &trans                          &trans
             >;
         };
 
