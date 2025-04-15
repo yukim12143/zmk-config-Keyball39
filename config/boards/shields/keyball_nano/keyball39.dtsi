@@ -74,3 +74,24 @@
         prechargep = <0x22>;
     };
 };
+
+/ {
+    behaviors {
+        mouse_layer_hold: behavior_mouse_layer_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOUSE_LAYER_HOLD";
+            #binding-cells = <0>;
+            tapping-term-ms = <0>;
+            bindings = <&mo MOUSE>;
+        };
+    };
+
+    sensors {
+        trackball_sensor: trackball_sensor {
+            compatible = "zmk,sensor-trackball";
+            label = "TRACKBALL";
+            input-report = <1>;
+            bindings = <&mouse_layer_hold>;
+        };
+    };
+};
