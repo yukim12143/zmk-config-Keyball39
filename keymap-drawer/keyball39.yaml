@@ -57,9 +57,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-up$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
