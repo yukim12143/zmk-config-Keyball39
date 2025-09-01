@@ -34,7 +34,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - {t: Alt+`, h: NUM, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
