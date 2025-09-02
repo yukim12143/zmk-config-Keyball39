@@ -34,7 +34,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: SNIPE}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - {t: Alt+`, h: NUM, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -274,7 +274,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
